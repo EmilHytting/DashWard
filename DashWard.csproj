@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Background.jpg" />
+    <None Remove="Images\DashWardLogo2.png" />
+    <None Remove="Images\Icons\key-icon.png" />
+    <None Remove="Images\Icons\user-icon.png" />
+    <None Remove="Images\Icons\user-key.png" />
+    <None Remove="Images\Icons\user.png" />
+    <None Remove="Images\Logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FontAwesome.Sharp" Version="6.3.0" />
+    <PackageReference Include="FontAwesome.WPF" Version="4.7.0.9" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Background.jpg" />
+    <Resource Include="Images\DashWardLogo2.png" />
+    <Resource Include="Images\Icons\key-icon.png" />
+    <Resource Include="Images\Icons\user-icon.png" />
+    <Resource Include="Images\Logo.png" />
+  </ItemGroup>
+
+</Project>
