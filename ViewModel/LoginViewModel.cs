@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Security;
-using System.Threading.Tasks;
-using System.Windows.Input;
-using DashWard.Model;
+﻿using DashWard.Model;
 using DashWard.Repositories;
 using System.Net;
+using System.Security;
 using System.Security.Principal;
+using System.Windows.Input;
 
 namespace DashWard.ViewModel
 {
@@ -88,7 +83,7 @@ namespace DashWard.ViewModel
         {
             userRepository = new UserRepository();
             LoginCommand = new ViewModelCommand(ExecuteLoginCommand, CanExecuteLoginCommand);
-            RecoverPasswordCommand = new ViewModelCommand( p => ExecuteRecoverPassCommand("", ""));
+            RecoverPasswordCommand = new ViewModelCommand(p => ExecuteRecoverPassCommand("", ""));
         }
 
 

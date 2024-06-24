@@ -32,7 +32,7 @@
             <ImageBrush ImageSource="/Images/Background.jpg"
                         Stretch="Fill"/>
         </Border.Background>
-        
+
         <Border CornerRadius="10"
             BorderThickness="2"
                 Opacity="0.85">
@@ -143,16 +143,18 @@
                     </Button>
                 </Grid>
 
+                <StackPanel Grid.Row="1"
+                            Margin="0,-80,0,0">
+                    <Image Source="/Images/Logo - Copy.png" 
+                           Height="342" 
+                           Width="414"
+                           RenderTransformOrigin="0.373,0.112"/>
+                </StackPanel>
+
                 <StackPanel Width="250"
                             Grid.Row="2"
                             Orientation="Vertical"
-                            Margin="0,5,0,0">
-                    
-                    <Image Source="/Images/Logo.png" 
-                           Height="616" 
-                           Width="705" 
-                           Margin="-55,-230"
-                           RenderTransformOrigin="0.373,0.112"/>
+                            Margin="0,150,0,0">
 
                     <TextBlock Text="DASH WARD"
                                Foreground="White"
@@ -263,7 +265,7 @@
                                FontWeight="Medium"
                                FontFamily="Montserrat"/>
 
-                    <TextBlock Text="Reset"
+                        <TextBlock Text="Reset"
                                Foreground="White"
                                FontSize="12"
                                FontWeight="Medium"

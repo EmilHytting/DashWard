@@ -1,6 +1,4 @@
 ﻿using DashWard.View;
-using System.Configuration;
-using System.Data;
 using System.Windows;
 
 namespace DashWard

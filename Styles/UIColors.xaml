@@ -12,11 +12,13 @@
     <Color x:Key="winBorderColor1">#6D2FFF</Color>
     <Color x:Key="winBorderColor2">#FB539B</Color>
     <Color x:Key="winBorderColor3">#836EFB</Color>
-    
+    <Color x:Key="winBorderColor4">#4ADAEC</Color>
+    <Color x:Key="winBorderColor5">#4ADAEC</Color>
+
     <!--Color Palette-->
     <SolidColorBrush x:Key="color1" Color="#E285DE"/>
     <SolidColorBrush x:Key="color2" Color="#784DFD"/>
-    <SolidColorBrush x:Key="color3" Color="#4ADAEC"/>
+    <SolidColorBrush x:Key="color3" Color="#FF00E3FF"/>
     <SolidColorBrush x:Key="color4" Color="#FB539B"/>
     <SolidColorBrush x:Key="color5" Color="#7E82FC"/>
     <SolidColorBrush x:Key="color6" Color="#FFC047"/>
